@@ -1,19 +1,34 @@
-let word0 = 'Engineer'
-let word0translation = 'Инженер'
+const word0 = 'Engineer'
+const word0translation = 'Инженер'
 
-let word1 = 'Ice Cream'
-let word1translation = 'Мороженое'
+const word1 = 'Ice Cream'
+const word1translation = 'Мороженое'
 
-let word2 = 'Milk'
-let word2translation = 'Молоко'
+const word2 = 'Milk'
+const word2translation = 'Молоко'
 
-alert(word0)
-alert(word0translation)
+const wordsCount = 3
 
-alert(word1)
-alert(word1translation)
+const finishMessage = 'Молодец, конец игры'
 
-alert(word2)
-alert(word2translation)
+let correctAnswersCount = 0
 
-alert('ФИНИШ - конец словаря')
+const userAnswer0 = prompt(word0)
+alert(userAnswer0 === word0translation)
+if (userAnswer0 === word0translation) {
+    correctAnswersCount++
+}
+
+const userAnswer1 = prompt(word1)
+alert(userAnswer1 === word1translation)
+if (userAnswer1 === word1translation) {
+    correctAnswersCount++
+}
+
+const userAnswer2 = prompt(word2)
+alert(userAnswer2 === word2translation)
+if (userAnswer2 === word2translation) {
+    correctAnswersCount++
+}
+
+alert(finishMessage)
