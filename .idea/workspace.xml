@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef9a121-49aa-48e8-a31b-d2995768da3a" name="Changes" comment="add if-else">
+    <list default="true" id="aef9a121-49aa-48e8-a31b-d2995768da3a" name="Changes" comment="add if-else &amp; condition Min percent">
+      <change afterPath="$PROJECT_DIR$/05-prompt-alert-write-log/05.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-boolean-if-else/03.js" beforeDir="false" afterPath="$PROJECT_DIR$/03-boolean-if-else/03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,7 +52,8 @@
       <updated>1695119404810</updated>
       <workItem from="1695119406216" duration="922000" />
       <workItem from="1695132119032" duration="1223000" />
-      <workItem from="1695186363752" duration="1951000" />
+      <workItem from="1695186363752" duration="1992000" />
+      <workItem from="1695201840722" duration="1996000" />
     </task>
     <task id="LOCAL-00001" summary="add if-else">
       <created>1695187395891</created>
@@ -59,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695187395891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add if-else &amp; condition Min percent">
+      <created>1695188350278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695188350278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add if-else" />
-    <option name="LAST_COMMIT_MESSAGE" value="add if-else" />
+    <MESSAGE value="add if-else &amp; condition Min percent" />
+    <option name="LAST_COMMIT_MESSAGE" value="add if-else &amp; condition Min percent" />
   </component>
 </project>

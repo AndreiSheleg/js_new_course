@@ -1,0 +1,5 @@
+const userInput = window.prompt('Write something: ', '**** **** **** ****')
+document.write('user input is: ' + userInput, '<br>')
+document.write('user input is: ' + userInput, '<br>')
+document.write('user input is: ' + userInput, '<br>')
+console.log('console.log - message')
