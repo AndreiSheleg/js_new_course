@@ -7,9 +7,12 @@ const word1translation = 'Мороженое'
 const word2 = 'Milk'
 const word2translation = 'Молоко'
 
+const correctAnswersMinPercent = 50
+
 const wordsCount = 3
 
-const finishMessage = 'Молодец, конец игры'
+const finishSuccessMessage = 'Молодец, good results!'
+const finishUnsuccessMessage = 'Молодец, но старайся лучше!'
 
 let correctAnswersCount = 0
 
@@ -31,4 +34,10 @@ if (userAnswer2 === word2translation) {
     correctAnswersCount++
 }
 
-alert(finishMessage)
+const userAnswersCorrectPercent = correctAnswersCount / wordsCount * 100
+
+if ( userAnswersCorrectPercent > correctAnswersMinPercent) {
+    alert(finishSuccessMessage)
+} else {
+    alert(finishUnsuccessMessage)
+}
