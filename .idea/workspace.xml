@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef9a121-49aa-48e8-a31b-d2995768da3a" name="Changes" comment="if-else-isNaN">
-      <change afterPath="$PROJECT_DIR$/08-objects/08.js" afterDir="false" />
+    <list default="true" id="aef9a121-49aa-48e8-a31b-d2995768da3a" name="Changes" comment="refactor objects">
+      <change afterPath="$PROJECT_DIR$/09-arrays/09.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -25,23 +28,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2Vbz85GI3FKZYSBjittANrnbanH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/js-lessons&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/js-lessons",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +69,9 @@
       <workItem from="1695369862807" duration="4497000" />
       <workItem from="1695391171208" duration="95000" />
       <workItem from="1695500063807" duration="698000" />
-      <workItem from="1695736269810" duration="516000" />
+      <workItem from="1695736269810" duration="2123000" />
+      <workItem from="1695786558690" duration="16000" />
+      <workItem from="1695889313337" duration="1816000" />
     </task>
     <task id="LOCAL-00001" summary="add if-else">
       <created>1695187395891</created>
@@ -88,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695373841930</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create initial objects">
+      <created>1695736830658</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695736830658</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refactor objects">
+      <created>1695738357401</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695738357401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +137,8 @@
     <MESSAGE value="add if-else &amp; condition Min percent" />
     <MESSAGE value="prompt-alert-write-concole.log" />
     <MESSAGE value="if-else-isNaN" />
-    <option name="LAST_COMMIT_MESSAGE" value="if-else-isNaN" />
+    <MESSAGE value="create initial objects" />
+    <MESSAGE value="refactor objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor objects" />
   </component>
 </project>
