@@ -15,42 +15,51 @@ const word2 = {
 
 const wordsCount = 3
 
-const resultMessages = {
-    finishSuccess: 'Молодец, good results!',
-    finishUnsuccess: 'Молодец, но старайся лучше!'
+const notificationMessages = {
+    start: {
+        gretting: 'Hello, man. You could learn English. Good Luck!'
+    },
+    result: {
+        finishSuccess: 'Молодец, good results!',
+        finishUnsuccess: 'Молодец, но старайся лучше!'
+    }
+
 }
 
 const settings = {
     correctAnswersMinPercent: 50,
 }
 
-let correctAnswersCount = 0
+const results ={
+    correctAnswersCount: 0
+}
+
 
 // ------------------------------------------------
 
 
-const userAnswer0 = prompt(word0)
-alert(userAnswer0 === word0translation)
-if (userAnswer0 === word0translation) {
-    correctAnswersCount++
+const userAnswer0 = prompt(word0.original)
+alert(userAnswer0 === word0.translation)
+if (userAnswer0 === word0.translation) {
+    result.correctAnswersCount++
 }
 
-const userAnswer1 = prompt(word1)
-alert(userAnswer1 === word1translation)
-if (userAnswer1 === word1translation) {
-    correctAnswersCount++
+const userAnswer1 = prompt(word1.original)
+alert(userAnswer1 === word1.translation)
+if (userAnswer1 === word1.translation) {
+    result.correctAnswersCount++
 }
 
-const userAnswer2 = prompt(word2)
-alert(userAnswer2 === word2translation)
-if (userAnswer2 === word2translation) {
-    correctAnswersCount++
+const userAnswer2 = prompt(word2.original)
+alert(userAnswer2 === word2.translation)
+if (userAnswer2 === word2.translation) {
+    result.correctAnswersCount++
 }
 
-const userAnswersCorrectPercent = correctAnswersCount / wordsCount * 100
+const userAnswersCorrectPercent = result.correctAnswersCount / wordsCount * 100
 
-if ( userAnswersCorrectPercent > correctAnswersMinPercent) {
-    alert(finishSuccessMessage)
+if ( userAnswersCorrectPercent > settings.correctAnswersMinPercent) {
+    alert(result.finishSuccess)
 } else {
-    alert(finishUnsuccessMessage)
+    alert(result.finishUnsuccess)
 }
