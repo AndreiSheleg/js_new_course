@@ -10,8 +10,36 @@
 <!--<script src="06-if-else-isNaN/06.js"></script>-->
 <!--<script src="08-objects/08.js"></script>-->
 <!--<script src="09-arrays/09.js"></script>-->
+<!--<script src="10-for/10.js"></script>-->
+<!--<script src="11-functions/11.js"></script>-->
 <script>
+    //-------------functions
+    function showHelloMessage(_notificationMessages) {
+        return alert(notificationMessages.start.gretting)
+    }
+    function startTraining(_words, _results) {
+        for (let i = 0; i < _words.length; i++) {
+            let userAnswer = prompt(_words[i].original)
+            alert(userAnswer === _words[i].translation)
+            if (userAnswer === _words[i].translation) {
+                _results.correctAnswersCount++
+            }
+        }
+    }
+    function getPercentage(_results, _words) {
+        return _results.correctAnswersCount / _words.length * 100
+    }
+    function showResult(_results, _words, _settings, _notificationMessages) {
+        const userAnswersCorrectPercent = getPercentage(_results, _words)
 
+        if (userAnswersCorrectPercent > _settings.correctAnswersMinPercent) {
+            alert(_notificationMessages.result.finishSuccess)
+        } else {
+            alert(_notificationMessages.result.finishUnsuccess)
+        }
+    }
+
+    //-------------data
     const words = [
         {
             original: 'Engineer',
@@ -46,27 +74,13 @@
         correctAnswersCount: 0
     }
 
+    //-------------main
 
-    // ------------------------------------------------
+    showHelloMessage(notificationMessages)
 
-    alert(notificationMessages.start.gretting)
+    startTraining(words, results)
 
-    for (let i = 0; i < words.length; i++) {
-        let userAnswer = prompt(words[i].original)
-        alert(userAnswer === words[i].translation)
-        if (userAnswer === words[i].translation) {
-            results.correctAnswersCount++
-        }
-    }
-
-
-    const userAnswersCorrectPercent = results.correctAnswersCount / words.length * 100
-
-    if (userAnswersCorrectPercent > settings.correctAnswersMinPercent) {
-        alert(notificationMessages.result.finishSuccess)
-    } else {
-        alert(notificationMessages.result.finishUnsuccess)
-    }
+    showResult(results, words, settings, notificationMessages);
 
 </script>
 </body>
